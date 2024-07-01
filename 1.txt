@@ -1,0 +1,135 @@
+    195.69.223.146      1; # UA Office
+    80.70.78.68         1; # UA Office Backup
+    81.196.86.120/32    1; # RO Office, vpn-ro
+    195.69.223.147      1; # UA ZT Devs
+    65.21.24.204/32     1; # FABRIC-AQA-HZ PP-27362
+    95.211.155.192/29   1; # PP-21670 VPN which based in Leaseweb DC
+    136.243.4.247         1; # UK monitoring
+    65.109.13.0         1; # emul-gateway
+    95.217.4.57         1; # emul-prod-0
+    95.217.129.152      1; # emul-prod-1
+    159.69.176.36       1; # emul-prod-2
+    65.108.60.48        1; # emul-prod-3
+    65.108.58.131       1; # emul-prod-4
+    135.181.91.222      1; # emul-prod-5
+    65.109.11.182       1; # emul-prod-6
+    135.181.33.45       1; # emul-prod-7
+    209.58.172.24       1; # demo0-asia
+    209.58.160.90       1; # demo1-asia
+    209.58.165.121      1; # demo3-monitoring-asia
+    63.32.152.85/32     1; # demo-prod-euro
+    52.214.124.245/32   1; # demo-prod-euro
+    34.241.10.9/32      1; # demo-prod-euro
+    34.240.128.182/32   1; # demo-prod-euro
+    54.194.175.29/32    1; # demo-prod-euro
+    63.32.125.9/32      1; # demo-prod-euro
+    54.217.116.12/32    1; # demo-prod-euro
+    52.208.114.79/32    1; # demo-prod-euro
+    52.212.78.33/32     1; # demo-prod-euro
+    52.49.62.200/32     1; # demo-prod-euro
+    52.221.143.184/32   1; # spe prod17 balancer
+    13.213.250.77/32    1; # spe prod17 balancer
+    13.214.247.55/32    1; # spe prod17 natgw
+    18.143.11.34/32     1; # spe prod17 natgw
+    18.140.95.184/32    1; # spe prod17 natgw
+    119.81.57.174       1; #pp88.asia, access /tournaments/leaderboard/ api
+    85.128.142.69       1; #new tdsoft.nazwa.pl, access /tournaments/leaderboard/ api
+    31.182.34.62        1; #tdsoft office, access /tournaments/leaderboard/ api
+    3.112.18.201        1;  #RGS BCOW
+    52.68.9.149         1;  #RGS BCOW
+    18.182.21.15        1;  #RGS BCOW
+    52.192.68.21        1;  #RGS BCOW
+    54.249.28.92        1;  #RGS BCOW
+    18.177.149.125      1;  #RGS BCOW
+    69.172.92.50        1;  #RGS BCOW
+    173.248.244.36      1;  #RGS BCOW
+    13.231.199.175/32   1;  #RGS BCOW
+    13.230.39.254/32    1;  #RGS BCOW
+    18.180.14.88/32     1;  #RGS BCOW   15.12.2020 skype
+    18.180.22.250/32    1;  #RGS BCOW   15.12.2020 skype
+    52.197.94.1/32      1;  #RGS BCOW   15.12.2020 skype
+    54.64.121.7/32      1;  #RGS BCOW   15.12.2020 skype
+    176.34.4.221/32     1;  #RGS BCOW   15.12.2020 skype
+    18.176.94.35/32     1;  #RGS BCOW   15.12.2020 skype
+    3.115.145.110/32    1;  #RGS BCOW   15.12.2020 skype
+    18.176.222.172/32   1;  #RGS BCOW   15.12.2020 skype
+    52.197.31.92/32     1;  #RGS BCOW   15.12.2020 skype
+    18.177.128.208/32   1;  #RGS BCOW   15.12.2020 skype
+    18.176.113.247/32   1;  #RGS BCOW   15.12.2020 skype
+    13.114.152.73/32    1;  #RGS BCOW   15.12.2020 skype
+    18.177.92.226/32    1;  #RGS BCOW   15.12.2020 skype
+    3.113.195.167/32    1;  #RGS BCOW   15.12.2020 skype
+    52.198.30.174/32    1;  #RGS BCOW   15.12.2020 skype
+    60.251.71.25/32     1;  #RGS BCOW   15.12.2020 skype
+    54.250.183.157  	1;  #RGS BCOW - TID 9492 - 30.01.2021
+    99.80.57.19         1; # LiveCasino RGS BT - Arun Teams 19.04.2020 - gs0
+    34.252.128.243      1; # LiveCasino - Krzysztof Talar - Teams 05.08.2020 - gs1
+    54.228.118.210      1; # LiveCasino - Krzysztof Talar 20.10.2020 - gs2
+    18.203.18.19        1; # LiveCasino - Alex Bondar - Teams 18.02.21 - gs3
+    99.80.17.177        1; # LiveCasino - Alex Bondar - Teams 18.02.21 - gs4
+    34.241.238.81       1; # LiveCasino 16.02.2021 emali request from LC team - gs5
+    99.80.114.78/32     1; # LiveCasino LINF-55 - gs6
+    54.73.196.140/32    1; # LiveCasino LINF-377 - gs7
+    52.16.118.152/32    1; # LiveCasino LINF-599 - gs8
+    34.243.206.222/32   1; # LiveCasino LINF-623 - gs9
+    52.49.71.39/32      1; # LiveCasino DO-285 - gs10
+    54.247.49.100/32    1; # LiveCasino DO-516 - gs11
+    54.217.67.230/32    1; # LiveCasino DO-651 - gs12
+    34.242.107.30/32    1; # LiveCasino nat-production
+    54.246.66.100/32    1; # LiveCasino proxy0-ir
+    54.195.142.244/32   1; # LiveCasino proxy1-ir DO-2477
+    63.33.0.178/32      1; # LiveCasino gs00
+    54.217.149.43/32    1; # LiveCasino gs01
+    63.33.188.223/32    1; # LiveCasino gs02, trigger pipeline
+    52.51.101.47/32     1; # LiveCasino gs03
+    63.32.8.101/32      1; # LiveCasino gs04
+    63.33.239.92/32     1; # LiveCasino gs05
+    52.214.198.206/32   1; # LiveCasino gs06
+    52.211.168.48/32    1; # LiveCasino gs07
+    54.78.40.35/32      1; # LiveCasino gs08
+    52.50.136.198/32    1; # LiveCasino gs09
+    52.210.38.5/32      1; # LiveCasino gs010
+    54.229.27.126/32    1; # LiveCasino gs013
+    108.128.165.251/32  1; # LiveCasino gs14, DO-1252
+    99.80.69.87         1; # LiveCasino RGS promo system - Amancharla Teams 16.04.2021 - promo0
+    54.220.138.195      1; # LiveCasino RGS promo system - Amancharla Teams 16.04.2021 - promo1
+    99.80.37.140        1; # LiveCasino - Krzysztof Talar - Teams 19.05.2020 - app2: to remove?
+    54.254.243.108      1; # LiveCasino - proxy0-sg LINF-246
+    3.0.15.64           1; # LiveCasino - proxy1-sg DO-2477
+    18.162.140.14       1; # LiveCasino - proxy0-hk LINF-259
+    16.163.83.102       1; # LiveCasino - proxy1-hk DO-2477
+    54.154.79.246       1;  #RGS BT VSB - Malcolm 30.07.2020
+    54.75.235.44        1;  #RGS BT VSB - Malcolm 26.08.2020
+    99.81.34.116        1;  #RGS BT VSB - Malcolm 26.08.2020
+    54.238.167.198/32   1;  #RGS AG - skype 09.02.2021
+    150.117.121.106/32  1;  #RGS AG - skype 09.02.2021
+    54.168.138.97       1; # Win88_3 - handover - 28.09.2021
+    52.68.167.33        1; # Win88_3 - handover - 28.09.2021
+    54.95.93.36         1; # Win88_3 - handover - 28.09.2021
+    54.66.186.17        1; # Win88_3 - handover - 28.09.2021
+    54.248.72.71        1; # Win88_3 - handover - 28.09.2021
+    35.74.185.90        1; # Win88_3 - handover - 28.09.2021
+    54.199.94.246       1; # Win88_3 - handover - 28.09.2021
+    52.69.247.225       1; #Win88 - SUP-21282 - 28.01.2022
+    18.182.139.88       1; # RGS BCOW - FD1151 - 21.09.2022
+    35.71.174.255       1; # Win88 - FD-34332 - 01.12.2022
+    52.223.49.156       1; # Win88 - FD-34332 - 01.12.2022
+    18.179.153.191      1; # Win88 - FD-34332 - 01.12.2022
+    54.238.65.41        1; # Win88 - FD-34332 - 01.12.2022
+	34.242.95.98		1; # Bingo internal for FRB-as-prize
+	54.194.128.234		1; # Bingo internal for FRB-as-prize
+	161.202.21.48/28	1; # Bingo internal for FRB-as-prize
+	99.80.101.201		1; # Bingo internal for FRB-as-prize
+	34.252.180.138		1; # Bingo internal for FRB-as-prize
+	54.76.166.249		1; # Bingo internal for FRB-as-prize
+	54.228.172.17		1; # Bingo internal for FRB-as-prize
+    99.80.139.94/32     1; # LiveCasino proxy-ir2 DPI-560
+    34.142.166.124      1; # Win88_3 - FD361667 - 25.02.2024
+    122.3.225.41        1; # Win88_3 - FD361667 - 25.02.2024
+    3.115.136.163       1; # Win88_14 - handover - 29.04.2024
+    18.178.99.92        1; # Win88_14 - handover - 29.04.2024
+    154.93.7.4          1; # Win88_14 - handover - 29.04.2024
+    54.65.23.31         1; # Win88_14 - handover - 29.04.2024
+    54.150.238.94       1; # Win88_14 - handover - 29.04.2024
+    13.214.51.126       1; # Win88_14 - handover - 29.04.2024
+    13.231.62.61        1; # Win88_14 - handover - 29.04.2024
