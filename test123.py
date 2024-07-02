@@ -1,26 +1,5 @@
-# Напишіть функцію format_string, яка центрує рядок у рамках заданої довжини length.
-# # Задачі:
-# # Створіть функцію format_string, яка приймає два аргументи: string рядок, який потрібно форматувати та length довжина,
-# у межах якої потрібно центрувати рядок.
-# Якщо довжина string більша або дорівнює length, поверніть рядок без змін.
-# Якщо довжина string менша за length, додайте перед рядком пробіли, для того, щоб рядок був центрований у рамках length.
-# Кількість пробілів визначте за формулою (length - len(string)) // 2.
-# Поверніть з функції відформатований рядок, що центрується у межах length.
-# Очікуваний результат:
-# # Функція format_string повертає відформатований рядок відповідно до заданих правил.
-# # Підказки:
-# # Використовуйте len() для визначення довжини рядка.
-# Для створення рядка з пробілів використовуйте " " * кількість_пробілів.
+import random
 
-def format_string(string=input("Line: "), length=input("Number:")):
-    if len(string) <= int(length):
-        num = (int(length) - len(string)) // 2
-        a = " "
-        num1 = a * num
-        return (f"{num1}{string}")
-        print(f"{num1} {string}")
-    else:
-        return (f"{string}")
-        print(f"{num1} {string}")
-format_string()
-print(format_string)
+items = ['яблуко', 'банан', 'вишня', 'диня']
+chosen_item = random.choices(items, k=3)
+print(chosen_item)
