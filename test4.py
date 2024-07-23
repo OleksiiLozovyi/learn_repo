@@ -4,3 +4,7 @@ with open("1.txt", "r") as file:
         if pattern in line:
             ip = line[:line.find('1;')].strip()
             print(ip)
+
+
+
+            primt(fn.white)
